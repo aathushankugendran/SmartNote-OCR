@@ -106,9 +106,9 @@ accuracy = wer(reference_text, ocr_text)
 ```json
 {
   "ocr_text": "Extracted note content...",
-  "ocr_accuracy": 91.5,
-  "readability_score": 68.2,
-  "clarity_score": 82.4
+  "Character Error Rate (%)": 0.84,
+  "Word Error Rate (%)": 8.35,
+  "OCR Accuracy (%)": 99.16
 }
 ```
 
@@ -116,17 +116,17 @@ accuracy = wer(reference_text, ocr_text)
 
 ## 🔥 Databricks Cluster Configuration
 
-| Setting                | Value                                     |
-|------------------------|-------------------------------------------|
-| Cluster Owner          | aathushan.kugendran@opg.com               |
-| Access Mode            | Dedicated (Single User)                  |
+| Setting                | Value                                        |
+|------------------------|----------------------------------------------|
+| Cluster Owner          | Aathushan Kugendran                          |
+| Access Mode            | Dedicated (Single User)                      |
 | Runtime Version        | 15.4 LTS ML (Apache Spark 3.5.0, Scala 2.12) |
-| Node Type              | Standard_E8ads_v5                         |
-| Specs                  | 64 GB RAM, 8 Cores                        |
-| Termination Timeout    | 30 minutes of inactivity                  |
-| DBU Consumption        | ~2.75 DBU/hour                            |
-| Photon Acceleration    | Disabled                                  |
-| Cost Center Tag        | 8604                                      |
+| Node Type              | Standard_E8ads_v5                            |
+| Specs                  | 64 GB RAM, 8 Cores                           |
+| Termination Timeout    | 30 minutes of inactivity                     |
+| DBU Consumption        | ~2.75 DBU/hour                               |
+| Photon Acceleration    | Disabled                                     |
+| Cost Center Tag        | 8604                                         |
 
 ---
 
